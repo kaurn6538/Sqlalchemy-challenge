@@ -31,18 +31,18 @@ The project repository is organized as follows:
 
 ## Setup and Execution
 
-1.Clone this repository to your local machine:
+1. Clone this repository to your local machine:
 
     git clone https://github.com/AnyasorG/sqlalchemy_challenge.git
     cd sqlalchemy_challenge/SurfsUp
 
-2.Install the required dependencies (ensure you have Python and pip installed):
+2. Install the required dependencies (ensure you have Python and pip installed):
 
     pip install -r requirements.txt
 
-3.Run the Jupyter notebook (climate_starter.ipynb) to perform the climate analysis.
+3. Run the Jupyter notebook (climate_starter.ipynb) to perform the climate analysis.
 
-4.Run the Flask API (app.py) to start the web server:
+4. Run the Flask API (app.py) to start the web server:
 
     python app.py
 Access the API through http://127.0.0.1:5000/ in your web browser.
@@ -91,9 +91,9 @@ This project is open-source and is made available under the terms of the MIT Lic
 
 ## References
 
-* Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: An overview of the Global Historical Climatology Network-Daily Database. Journal of Atmospheric and Oceanic Technology, 29, 897-910, Reference Link.
-* SQLAlchemy documentation (2023). SQLAlchemy Documentation. Retrieved on December 26, 2023.
-* Python documentation (2023). Python Documentation. Retrieved on December 22, 2023.
+* Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: An overview of the Global Historical Climatology Network-Daily Database. Journal of Atmospheric and Oceanic Technology, 29, 897-910, [Reference Link](https://journals.ametsoc.org/view/journals/atot/29/7/jtech-d-11-00103_1.xml).
+* SQLAlchemy documentation (2023). [SQLAlchemy Documentation](https://docs.sqlalchemy.org/en/20/). Retrieved on December 26, 2023.
+* Python documentation (2023). [Python Documentation](https://docs.python.org/3/). Retrieved on December 22, 2023.
 * Pandas documentation (2023). https://pandas.pydata.org/docs/.Retrieved on December 22, 2023.
 * Matplotlib documentation (2023). https://matplotlib.org/stable/index.html.Retrieved on December 22, 2023.
 

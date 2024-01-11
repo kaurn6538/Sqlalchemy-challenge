@@ -83,7 +83,7 @@ Ensure to close your Jupyter notebook and Flask API session when done.
 
 ## Code Source
 
-The code source can be found here: GitHub Repository
+The code source can be found here: [GitHub Repository](https://github.com/kaurn6538/Sqlalchemy-challenge)
 
 ## License
 
@@ -100,4 +100,4 @@ This project is open-source and is made available under the terms of the MIT Lic
 ## Author
 
 * Godswill Anyasor
-* Data is located at GitHub Repository
+* Data is located at [GitHub Repository](https://github.com/kaurn6538/Sqlalchemy-challenge)

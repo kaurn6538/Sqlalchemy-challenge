@@ -32,18 +32,18 @@ The project repository is organized as follows:
 
 1.Clone this repository to your local machine:
 
-git clone https://github.com/AnyasorG/sqlalchemy_challenge.git
-cd sqlalchemy_challenge/SurfsUp
+    git clone https://github.com/AnyasorG/sqlalchemy_challenge.git
+    cd sqlalchemy_challenge/SurfsUp
 
 2.Install the required dependencies (ensure you have Python and pip installed):
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 3.Run the Jupyter notebook (climate_starter.ipynb) to perform the climate analysis.
 
 4.Run the Flask API (app.py) to start the web server:
 
-python app.py
+    python app.py
 Access the API through http://127.0.0.1:5000/ in your web browser.
 
 ## SQLAlchemy Connection

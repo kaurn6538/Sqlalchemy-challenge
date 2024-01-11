@@ -24,9 +24,10 @@ This project is part of the Bootcamp Module 10 Challenge, where I performed a cl
 
 The project repository is organized as follows:
 
-* SurfsUp/: Directory for the Challenge, containing the main scripts and data files.* climate_analysis.ipynb: Jupyter notebook for climate analysis.
-* app.py: Flask application for the API.
-* Resources/: Folder containing the dataset (hawaii.sqlite), hawaii_measurements.csv hawaii_stations.csv.
+* SurfsUp/: Directory for the Challenge, containing the main scripts and data files.
+    * climate_analysis.ipynb: Jupyter notebook for climate analysis.
+    * app.py: Flask application for the API.
+    * Resources/: Folder containing the dataset (hawaii.sqlite), hawaii_measurements.csv hawaii_stations.csv.
 
 ## Setup and Execution
 

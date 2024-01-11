@@ -19,14 +19,15 @@ Code Source
 License
 References
 Author
-Project Structure
+
+## Project Structure
 
 The project repository is organized as follows:
 
-SurfsUp/: Directory for the Challenge, containing the main scripts and data files.
-climate_analysis.ipynb: Jupyter notebook for climate analysis.
-app.py: Flask application for the API.
-Resources/: Folder containing the dataset (hawaii.sqlite), hawaii_measurements.csv hawaii_stations.csv.
+* SurfsUp/: Directory for the Challenge, containing the main scripts and data files.
+** climate_analysis.ipynb: Jupyter notebook for climate analysis.
+** app.py: Flask application for the API.
+** Resources/: Folder containing the dataset (hawaii.sqlite), hawaii_measurements.csv hawaii_stations.csv.
 Setup and Execution
 
 ## Clone this repository to your local machine:
@@ -45,31 +46,35 @@ Access the API through http://127.0.0.1:5000/ in your web browser.
 
 ## SQLAlchemy Connection
 
-Used create_engine() to connect to the SQLite database.
-Employed automap_base() to reflect tables into classes (station and measurement).
-Created a session to link Python to the database.
-Precipitation Analysis
+* Used create_engine() to connect to the SQLite database.
+* Employed automap_base() to reflect tables into classes (station and measurement).
+* Created a session to link Python to the database.
 
-Identified the most recent date in the dataset.
-Queried the previous 12 months of precipitation data.
-Loaded and visualized data using Pandas and Matplotlib.
-Printed summary statistics for the precipitation data.
-Station Analysis
+## Precipitation Analysis
 
-Calculated the total number of stations.
-Found the most active station.
-Computed lowest, highest, and average temperatures for the most active station.
-Obtained the previous 12 months of TOBS data for the most active station.
-Plotted a histogram of TOBS.
-Flask API Routes
+* Identified the most recent date in the dataset.
+* Queried the previous 12 months of precipitation data.
+* Loaded and visualized data using Pandas and Matplotlib.
+* Printed summary statistics for the precipitation data.
 
-/: Homepage with available routes.
-/api/v1.0/precipitation: Precipitation data for the last 12 months.
-/api/v1.0/stations: List of all stations.
-/api/v1.0/tobs: TOBS data for the most active station in the last year.
-/api/v1.0/<start>: Min, avg, and max temperatures from a specified start date to the end.
-/api/v1.0/<start>/<end>: Min, avg, and max temperatures for a specified date range.
-Closing
+## Station Analysis
+
+* Calculated the total number of stations.
+* Found the most active station.
+* Computed lowest, highest, and average temperatures for the most active station.
+* Obtained the previous 12 months of TOBS data for the most active station.
+* Plotted a histogram of TOBS.
+
+## Flask API Routes
+
+* /: Homepage with available routes.
+* /api/v1.0/precipitation: Precipitation data for the last 12 months.
+* /api/v1.0/stations: List of all stations.
+* /api/v1.0/tobs: TOBS data for the most active station in the last year.
+* /api/v1.0/<start>: Min, avg, and max temperatures from a specified start date to the end.
+* /api/v1.0/<start>/<end>: Min, avg, and max temperatures for a specified date range.
+  
+## Closing
 
 Ensure to close your Jupyter notebook and Flask API session when done.
 
@@ -83,12 +88,13 @@ This project is open-source and is made available under the terms of the MIT Lic
 
 ## References
 
-Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: An overview of the Global Historical Climatology Network-Daily Database. Journal of Atmospheric and Oceanic Technology, 29, 897-910, Reference Link.
-SQLAlchemy documentation (2023). SQLAlchemy Documentation. Retrieved on December 26, 2023.
-Python documentation (2023). Python Documentation. Retrieved on December 22, 2023.
-Pandas documentation (2023). https://pandas.pydata.org/docs/.Retrieved on December 22, 2023.
-Matplotlib documentation (2023). https://matplotlib.org/stable/index.html.Retrieved on December 22, 2023.
-Author
+* Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: An overview of the Global Historical Climatology Network-Daily Database. Journal of Atmospheric and Oceanic Technology, 29, 897-910, Reference Link.
+* SQLAlchemy documentation (2023). SQLAlchemy Documentation. Retrieved on December 26, 2023.
+* Python documentation (2023). Python Documentation. Retrieved on December 22, 2023.
+* Pandas documentation (2023). https://pandas.pydata.org/docs/.Retrieved on December 22, 2023.
+* Matplotlib documentation (2023). https://matplotlib.org/stable/index.html.Retrieved on December 22, 2023.
 
-Godswill Anyasor
-Data is located at GitHub Repository
+## Author
+
+* Godswill Anyasor
+* Data is located at GitHub Repository

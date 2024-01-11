@@ -27,18 +27,21 @@ The project repository is organized as follows:
 * SurfsUp/: Directory for the Challenge, containing the main scripts and data files.* climate_analysis.ipynb: Jupyter notebook for climate analysis.
 * app.py: Flask application for the API.
 * Resources/: Folder containing the dataset (hawaii.sqlite), hawaii_measurements.csv hawaii_stations.csv.
-Setup and Execution
 
-## Clone this repository to your local machine:
+## Setup and Execution
+
+1.Clone this repository to your local machine:
 
 git clone https://github.com/AnyasorG/sqlalchemy_challenge.git
 cd sqlalchemy_challenge/SurfsUp
-Install the required dependencies (ensure you have Python and pip installed):
+
+2.Install the required dependencies (ensure you have Python and pip installed):
 
 pip install -r requirements.txt
-Run the Jupyter notebook (climate_starter.ipynb) to perform the climate analysis.
 
-Run the Flask API (app.py) to start the web server:
+3.Run the Jupyter notebook (climate_starter.ipynb) to perform the climate analysis.
+
+4.Run the Flask API (app.py) to start the web server:
 
 python app.py
 Access the API through http://127.0.0.1:5000/ in your web browser.

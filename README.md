@@ -8,26 +8,25 @@ This project is part of the Bootcamp Module 10 Challenge, where I performed a cl
 
 ## Table of Contents
 
-Project Structure
-Setup and Execution
-SQLAlchemy Connection
-Precipitation Analysis
-Station Analysis
-Flask API Routes
-Closing
-Code Source
-License
-References
-Author
+* Project Structure
+* Setup and Execution
+* SQLAlchemy Connection
+* Precipitation Analysis
+* Station Analysis
+* Flask API Routes
+* Closing
+* Code Source
+* License
+* References
+* Author
 
 ## Project Structure
 
 The project repository is organized as follows:
 
-* SurfsUp/: Directory for the Challenge, containing the main scripts and data files.
-** climate_analysis.ipynb: Jupyter notebook for climate analysis.
-** app.py: Flask application for the API.
-** Resources/: Folder containing the dataset (hawaii.sqlite), hawaii_measurements.csv hawaii_stations.csv.
+* SurfsUp/: Directory for the Challenge, containing the main scripts and data files.* climate_analysis.ipynb: Jupyter notebook for climate analysis.
+* app.py: Flask application for the API.
+* Resources/: Folder containing the dataset (hawaii.sqlite), hawaii_measurements.csv hawaii_stations.csv.
 Setup and Execution
 
 ## Clone this repository to your local machine:

@@ -87,7 +87,7 @@ The code source can be found here: [GitHub Repository](https://github.com/kaurn6
 
 ## License
 
-This project is open-source and is made available under the terms of the MIT License. The MIT License is a permissive open-source license that allows you to use, modify, and distribute this software for your purposes. For the full details of the MIT License, please refer to MIT License.
+This project is open-source and is made available under the terms of the MIT License. The MIT License is a permissive open-source license that allows you to use, modify, and distribute this software for your purposes. For the full details of the MIT License, please refer to [MIT License](https://choosealicense.com/licenses/mit/).
 
 ## References
 
